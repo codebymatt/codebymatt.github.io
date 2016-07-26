@@ -64,6 +64,13 @@ a {
   border-top-color: #3A3A3A;
 }
 
+@media screen and (max-width: 800px) {
+  #footer {
+    height: 100px;
+    margin-top: 100px;
+  }
+}
+
 #copyright {
   float: left;
   color: #3A3A3A;
@@ -234,6 +241,12 @@ a {
     margin-left: 0;
     padding-top: 1px;
     padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #main #programming {
+    padding-bottom: 140px;
   }
 }
 
