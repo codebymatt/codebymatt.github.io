@@ -1,0 +1,129 @@
+@import base
+
+//Define image heights and widths:
+$width: 60%
+$height: (0.1*$width)
+
+
+
+#title
+    margin: 50px 0 40px
+    text-align: center
+    font-family: $alt-font
+    font-size: 40px
+    color: $light
+    text-transform: uppercase
+
+#site-finder
+    margin: 0px auto 70px
+    @include display(flex)
+    @media screen and (max-width: 1200px)
+        @include flex-direction(column)
+    max-width: 90%
+    @include justify-content(space-around)
+    @include flex-wrap(wrap)
+    font-family: $alt-font
+    font-size: 24px
+    font-weight: 300
+    color: $light
+    .button
+        max-width: 30%
+        min-width: 200px
+        text-align: center
+        outline-style: solid
+        outline-width: 2px
+        outline-color: rgba($accent, 0.8)
+        padding: 0 10px
+        margin: 10px 50px
+        @media screen and (max-width: 1200px)
+            margin: 10px auto
+        &:hover
+            outline-style: none
+
+#scroll
+    margin: 0 auto 50px
+    max-width: 50%
+    text-align: center
+    font-size: 22px
+    color: $light
+    font-family: $alt-font
+    font-weight: 300
+
+hr
+    max-width: 60%
+    color: $accent
+    border-style: solid
+    border-color: rgba($accent, 0.7)
+    border-width: 1px
+    margin-bottom: 70px
+
+#note
+    text-align: center
+    font-family: $alt-font
+    font-size: 24px
+    font-weight: 300
+    max-width: 80%
+    margin: 0 auto 45px
+
+.container
+    display: none
+    margin: 0px 50px
+    text-align: center
+    .section-title
+        padding: 0 5px
+        display: inline-block
+        border-style: solid
+        border-color: rgba($accent, 0.7)
+        border-width: 3px
+        margin: 0px auto 100px
+        text-align: center
+        font-family: $alt-font
+        font-size: 34px
+        color: $light
+        text-transform: uppercase
+    img
+        margin: 0px auto
+        width: 450px
+        height: 225px
+        background-color: $light
+        object-fit: cover
+        @media screen and (max-width: 550px)
+            width: $width
+            height: $height
+
+
+    .content
+        max-width: 100%
+        margin: 0 auto
+        text-align: center
+        font-family: $alt-font
+        color: $light
+
+        .title
+            font-size: 24px
+            margin-bottom: 10px
+
+        p
+            font-size: 16px
+            text-align: center
+            margin: 40px auto 10px
+            max-width: 50%
+            @media screen and (max-width: 550px)
+                max-width: 100%
+                font-size: 12px
+
+
+        .client
+            font-size: 20px
+            text-align: center
+            margin-bottom: 120px
+
+        hr
+            max-width: 40%
+            border-style: solid
+            border-width: 1px
+            border-color: $accent
+            margin-bottom: 120px
+
+#footer
+    margin: 30px 0px 0px

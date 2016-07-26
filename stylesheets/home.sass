@@ -1,0 +1,72 @@
+@import base
+
+#about
+    max-width: 67%
+    margin: 0 auto 75px
+
+#description
+    margin: 40px 0 30px 0
+    text-align: center
+    font-size: 35px
+    color: $light
+    font-family: $alt-font
+    text-transform: uppercase
+    font-weight: 300
+
+#about-me
+    text-align: center
+    font-family: $main-font
+    font-weight: 300
+    font-size: 18px
+    color: $light
+    line-height: 25px
+    b
+        color: $accent
+        font-weight: bold
+        &:hover
+            color: $dark
+
+#portfolio
+    margin-top: 0px
+    @include display(flex)
+    @include flex-wrap(wrap)
+    @include justify-content(center)
+
+    .portfolio-link
+        float: left
+        margin: 0px 30px
+        min-width: 220px
+        height: 50px
+        margin-bottom: 40px
+        border-style: solid
+        border-width: 2px
+        border-color: rgba($accent, 0.7)
+        @include display(flex)
+        @include align-items(center)
+        @include justify-content(center)
+        &:hover
+            border-color: white
+            .caption
+                //color: $accent
+
+        .caption
+            text-align: center
+            text-transform: uppercase
+            font-family: $alt-font
+            color: $light
+            letter-spacing: 2px
+
+#portfolio-text
+
+    margin: 60px auto 80px
+    font-family: $main-font
+    font-weight: 300
+    font-size: 22px
+    max-width: 65%
+    text-align: center
+    color: $light
+    b
+        color: $accent
+        font-weight: bold
+        &:hover
+            color: $dark
