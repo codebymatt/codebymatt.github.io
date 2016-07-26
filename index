@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matt Craig - Web Developer, Programmer, Burrito Enthusiast</title>
+        <link rel = 'stylesheet' href = 'stylesheets/home.css'/>
+        <script src="https://use.fontawesome.com/55e1485fee.js"></script>
+        <!-- Google Fonts imported in _base.sass file -->
+    </head>
+    <body>
+        <div id = header>
+            <div id = logo>
+                <a href = ''>Matt Craig</a>
+            </div>
+            <div id = nav>
+                <div class = nav-button><a href = 'about.html'>About</a></div>
+                <div class = nav-button><a href = 'portfolio.html' >Portfolio</a></div>
+                <div class = nav-button><a href = 'contact.html'>Contact</a></div>
+            </div>
+        </div>
+        <div id = about>
+            <div id = description>Making the internet look good</div>
+            <div id = about-me>
+                I'm Matt, a freelance web developer currently based in Dublin, Ireland. Creating
+                websites allows me to combine my desire to make things with my
+                love for code and the internet. If you would like me to work with you (or work for you), please
+                feel free to <b><a href = 'contact.html' >contact me</a></b> anytime with questions or comments.
+            </div>
+        </div>
+        <div id = portfolio>
+            <div class = portfolio-link>
+                <div class = caption><a href = 'portfolio.html' >Website Templates</a></div>
+            </div>
+            <div class = portfolio-link>
+                <div class = caption><a href = 'portfolio.html' >Client Work</a></div>
+            </div>
+            <div class = portfolio-link>
+                <div class = caption><a href = 'portfolio.html' >Personal Projects</a></div>
+            </div>
+        </div>
+        <div id = portfolio-text>
+            View my entire portfolio <b><a href = 'portfolio.html' >here</a></b>.
+        </div>
+        <div id = footer>
+            <div id = copyright>
+                <div id = copy-symbol><i class="fa fa-copyright" aria-hidden="true"></i></div>
+                <div id = copy-text>Copyright 2016 Matt Craig</div>
+            </div>
+            <div id = social-media>
+                <!--<a class = media-button><i class="fa fa-dribbble fa-fw"></i></a>-->
+                <a href = 'https://twitter.com/mattie_craig' target = _blank class = media-button><i class="fa fa-twitter fa-fw"></i></a>
+                <a href = 'https://ie.linkedin.com/in/matthew-craig' target = _blank class = media-button><i class="fa fa-linkedin fa-fw"></i></a>
+                <a href = 'https://github.com/codebymatt' target = _blank class = media-button><i class="fa fa-github fa-fw"></i></a>
+            </div>
+        </div>
+    </body>
+</html>
