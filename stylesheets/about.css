@@ -148,7 +148,10 @@ a {
     justify-content: center;
     -ms-flex-pack: center; }
     #social-media .media-button {
-      float: none; } }
+      float: none; }
+
+  #footer {
+    position: static; } }
 #main {
   margin: 30px 40px 0 40px; }
   #main::after {
