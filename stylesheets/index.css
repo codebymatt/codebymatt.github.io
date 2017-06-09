@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Varela);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+body {
+  margin: 0px; }
+
+a {
+  outline: none;
+  color: inherit;
+  text-decoration: none; }
+
+#content-wrapper {
+  margin: 30vh auto 0; }
+  #content-wrapper #text {
+    margin: 0 30px; }
+    #content-wrapper #text p {
+      font-size: 22px;
+      font-family: Varela;
+      margin: 10px auto;
+      text-align: center; }
+    #content-wrapper #text #return {
+      margin-top: 40px; }
+  #content-wrapper #social {
+    display: flex;
+    margin: 30px auto;
+    justify-content: center; }
+    #content-wrapper #social a {
+      margin: 0 10px;
+      height: 30px;
+      width: 30px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100px;
+      box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.35); }
+      #content-wrapper #social a i {
+        font-size: 30px; }
+
+/*# sourceMappingURL=index.css.map */
