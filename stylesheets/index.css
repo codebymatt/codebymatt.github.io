@@ -32,7 +32,7 @@ a {
       justify-content: center;
       align-items: center;
       border-radius: 100px;
-      box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.35); }
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35); }
       #content-wrapper #social a i {
         font-size: 30px; }
 
