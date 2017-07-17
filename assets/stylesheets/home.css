@@ -3,7 +3,7 @@ html, body, p {
   margin: 0;
   padding: 0;
   font-family: "Montserrat";
-  font-weight: 300; }
+  font-weight: 400; }
 
 a {
   outline: none;
@@ -15,7 +15,7 @@ a {
 
 #landing {
   position: absolute;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #0097A7;
   margin-top: 0px; }
   #landing #nav {
