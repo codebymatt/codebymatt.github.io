@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="75px" viewBox="0 0 136 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>FrontEnd</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="12.7659574" y="0" width="110.106383" height="71.8085106" rx="4"></rect>
+        <rect id="path-2" x="0" y="69.4148936" width="135.638298" height="5.58510638" rx="2"></rect>
+        <rect id="path-3" x="17.1567887" y="3.78777825" width="101.810565" height="63.3729392" rx="1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-SE-Cyan" transform="translate(-92.000000, -266.000000)">
+            <g id="FrontEnd" transform="translate(92.000000, 266.000000)">
+                <g id="Rectangle-5">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#000000" stroke-width="2" x="13.7659574" y="1" width="108.106383" height="69.8085106" rx="4"></rect>
+                </g>
+                <g id="Rectangle-6">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#000000" stroke-width="2" x="1" y="70.4148936" width="133.638298" height="3.58510638" rx="1.79255319"></rect>
+                </g>
+                <g id="Rectangle-7">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#000000" stroke-width="2" x="18.1567887" y="4.78777825" width="99.8105651" height="61.3729392" rx="1"></rect>
+                </g>
+                <text id="/" font-family="VarelaRound, Varela Round" font-size="30" font-weight="normal" fill="#000000">
+                    <tspan x="63.0319149" y="46">/</tspan>
+                </text>
+                <g id="chevron-right-copy" transform="translate(74.000000, 29.000000)" fill-rule="nonzero" fill="#000000">
+                    <path d="M2.46542553,0.588145897 C2.9418693,1.05319149 7.5968845,5.93958967 7.5968845,5.93958967 C7.85106383,6.18920973 7.9787234,6.51405775 7.9787234,6.83890578 C7.9787234,7.1637538 7.85106383,7.48860182 7.5968845,7.73594225 C7.5968845,7.73594225 2.9418693,12.6246201 2.46542553,13.087386 C1.98898176,13.5524316 1.13183891,13.5843465 0.624620061,13.087386 C0.116261398,12.5927052 0.0763677812,11.9008359 0.624620061,11.2933131 L4.89551672,6.83890578 L0.624620061,2.38449848 C0.0763677812,1.77697568 0.116261398,1.08396657 0.624620061,0.588145897 C1.13183891,0.0911854103 1.98898176,0.121960486 2.46542553,0.588145897 Z" id="Shape"></path>
+                </g>
+                <g id="chevron-right-copy-2" transform="translate(59.042553, 36.360182) scale(-1, 1) translate(-59.042553, -36.360182) translate(55.053191, 29.521277)" fill-rule="nonzero" fill="#000000">
+                    <path d="M2.46542553,0.588145897 C2.9418693,1.05319149 7.5968845,5.93958967 7.5968845,5.93958967 C7.85106383,6.18920973 7.9787234,6.51405775 7.9787234,6.83890578 C7.9787234,7.1637538 7.85106383,7.48860182 7.5968845,7.73594225 C7.5968845,7.73594225 2.9418693,12.6246201 2.46542553,13.087386 C1.98898176,13.5524316 1.13183891,13.5843465 0.624620061,13.087386 C0.116261398,12.5927052 0.0763677812,11.9008359 0.624620061,11.2933131 L4.89551672,6.83890578 L0.624620061,2.38449848 C0.0763677812,1.77697568 0.116261398,1.08396657 0.624620061,0.588145897 C1.13183891,0.0911854103 1.98898176,0.121960486 2.46542553,0.588145897 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
