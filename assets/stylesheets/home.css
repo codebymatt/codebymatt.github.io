@@ -49,7 +49,8 @@ a {
       margin: 0px auto; }
   #landing #chevron {
     text-align: center;
-    margin-top: 1.5em; }
+    margin-top: 1.5em;
+    padding-bottom: 1em; }
     #landing #chevron img {
       height: 40px; }
 
