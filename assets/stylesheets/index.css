@@ -34,4 +34,10 @@ body {
         body #content-wrapper #social a i {
           font-size: 28px; }
 
+@media screen and (max-width: 800px) {
+  body #content-wrapper #text h2 {
+    font-size: 22px; }
+  body #content-wrapper #social {
+    font-size: 35px; } }
+
 /*# sourceMappingURL=index.css.map */
