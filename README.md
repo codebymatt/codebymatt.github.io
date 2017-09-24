@@ -1,3 +1,3 @@
 # mattcraig.me
 
-This is my personal website intended to display my (still blossoming) web development skills to any potential employers. If you have any suggestions or improvements, I'd love to know.
+This used to be my personal website to display my personal projects to any potential employers. It's currently the landing page for one of those projects(ivxapparel.com), and will remain so until alpha launch (late 2017).
