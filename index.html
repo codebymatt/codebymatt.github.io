@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Fresh threads - always</title>
+        <title>Matt Craig - Product Engineer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel = 'stylesheet' href = 'assets/stylesheets/index.css'/>
-        <script src="https://use.fontawesome.com/55e1485fee.js"></script>
-        <!-- Google Fonts imported in _base.sass file -->
+        <meta charset="UTF-8">
+        <link rel=stylesheet href='assets/stylesheets/index.css' />
+        <script src="https://use.fontawesome.com/acccbed8c1.js"></script>
     </head>
     <body>
-        <div id=content-wrapper>
-            <img src='assets/graphics/ivx-logo-white.svg' />
-            <div id=text>
-                <!--<h1>IV:X APPAREL</h1>-->
-                <h2>
-                    Coming Winter 2017
-                </h2>
+        <div id=landing>
+            <div id=header>
+                <a href='http://mattcraig.me>'><img id=logo src='./assets/graphics/logo-black.svg' /></a>
+                <div id=nav>
+                    <a href='/about'><div class=nav-option>About</div></a>
+                    <a href='/resume'><div class=nav-option>Resume</div></a>
+                </div>
             </div>
-            <div id=social>
-                <a href = 'https://www.instagram.com/ivxapparel/' target = _blank class = media-button><i class="fa fa-instagram fa-fw"></i></a>
-                <!--<a href = 'https://www.facebook.com/anvmagazine/' target = _blank class = media-button><i class="fa fa-facebook fa-fw"></i></a>
-                <a href = 'https://twitter.com/thewisestmatt' target = _blank class = media-button><i class="fa fa-twitter fa-fw"></i></a>-->
+            <div id=kicker-wrapper>
+                <p id=kicker>I'm Matt, a mathematician turned software engineer.</p>
+                <p id=kicker-cta>Scroll down to find out what I'm about.</p>
+                <img id=caret src='./assets/graphics/caret.svg'/>
+                <img id=bridge src='./assets/graphics/bridge.svg'/>
+            </div>
+        </div>
+        <div id=project-section>
+            <h1>What I do</h1>
+            <p id=intro>
+                I make elegant, intuitive digital products using leading-edge technologies and a
+                user-centric design process.<br /><br />You can find some of my work below.
+            </p>
+            <div id=project-wrapper>
+                <div class=card-wrapper>
+                    <h3>feedr</h3>
+                    <div class=card>
+                        <img src='./assets/graphics/feedr.png' />
+                        <p>
+                            I'm sick of looking at RSS readers that make my eyes want to bleed,
+                            so I'm doing something about it. Not only is it a joy to use, it's also free.
+                        </p>
+                        <div class=in-dev>
+                            <p>In development</p>
+                        </div>
+                        <a href='https://github.com/codebymatt/feedr-api'><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class=card-wrapper>
+                    <h3>Newton</h3>
+                    <div class=card>
+                        <img src='./assets/graphics/newton.png' />
+                        <p>
+                            I wanted a unit converter so I could stop trying to figure out how heavy LeBron James is in kilos in my head.
+                            Plenty of those exist, but I also wanted an excuse to learn React.js. The result? World, meet Newton.
+                        </p>
+                        <div class=in-dev>
+                            <p>In development</p>
+                        </div>
+                        <a href='https://github.com/codebymatt/newton'><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

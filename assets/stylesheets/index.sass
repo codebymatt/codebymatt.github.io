@@ -1,34 +1,144 @@
-@import base
+@import 'base'
 
-body
-    background-color: $black
-    color: $white
-    #content-wrapper
-        img
-            height: 125px
-            margin-bottom: 20px
-        margin: 25vh auto
+#landing
+    height: 100vh
+    background-color: #FCFCFC
+    #header
         text-align: center
-        #text
-            h1
-                font-size: 48px
-                font-weight: 300
-                text-transform: uppercase
-            h2
-                font-size: 28px
-                font-weight: 200
-                text-transform: uppercase
-        #social
+        #logo
+            height: 60px
             margin-top: 30px
-            a
+        #nav
+            margin: 20px auto
+            display: flex
+            justify-content: center
+            .nav-option
                 margin: 0 10px
+                font-size: 18px
+                font-weight: 300
+    #kicker-wrapper
+        text-align: center
+        #kicker
+            font-size: 28px
+            max-width: 90%
+            margin: 45px auto 25px
+        #kicker-cta
+            font-size: 18px
+            margin: 0px auto 20px
+            max-width: 80%
+        #caret
+            margin-top: 40px
+            width: 35px
+            display: none
+        #bridge
+            width: 90%
+            position: relative
+            bottom: 10px
+
+#project-section
+    text-align: center
+    overflow: hidden
+    h1
+        font-weight: 200
+        margin-top: 35px
+    #intro
+        font-size: 16px
+        max-width: 90%
+        margin: 0 auto
+    #project-wrapper
+        .card-wrapper
+            max-width: 80%
+            margin: 45px auto
+            h3
+                font-weight: 200
+                font-size: 20px
+                margin-bottom: 20px
+                text-transform: uppercase
+            .card
+                background-color: #FFFFFF
+                box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50)
+                overflow: hidden
+                margin-bottom: 80px
+                img
+                    width: 100%
+                    object-fit: cover
+                    object-position: center
+                p
+                    font-size: 16px
+                    max-width: 90%
+                    margin: 10px auto
+                .in-dev
+                    border-style: solid
+                    border-color: red
+                    border-radius: 100px
+                    border-width: 2px
+                    max-width: 65%
+                    margin: 25px auto 0px
+                    p
+                        margin: 5px auto
+                        color: red
+                        font-weight: 300
+                        font-size: 14px
+                        text-transform: uppercase
                 i
-                    font-size: 28px
-@media screen and (max-width: 800px)
-    body
-        #content-wrapper
-            #text
-                h2
-                    font-size: 22px
-            #social
-                font-size: 35px
+                    margin: 20px auto
+                    font-size: 45px
+
+
+
+@media screen and (min-width: 375px)
+    #landing
+        #kicker-wrapper
+            #bridge
+                margin-top: 100px
+@media screen and (min-width: 400px)
+    #landing
+        #kicker-wrapper
+            #kicker
+                margin-top: 45px
+            #bridge
+                margin-top: 150px
+@media screen and (min-width: 1200px)
+    #landing
+        #header
+            //text-align:
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 0px 30px
+            #logo
+                height: 75px
+            #nav
+                margin: 30px 0px 0px
+                .nav-option
+                    margin: 0px 20px
+        #kicker-wrapper
+            text-align: center
+            #kicker
+                font-size: 40px
+                margin-top: 160px
+            #kicker-cta
+                font-size: 24px
+            //#caret
+                display: block
+                margin: inherit auto
+            #bridge
+                height: 240px
+    #project-section
+        h1
+            font-size: 48px
+            margin-top: 100px
+        #intro
+            font-size: 20px
+            margin-bottom: 100px
+        #project-wrapper
+            .card-wrapper
+                max-width: 50%
+                h3
+                    font-size: 36px
+                    margin-bottom: 30px
+                .card
+                    margin-bottom: 150px
+                    .in-dev
+                        margin: 30px auto 10px
+                        max-width: 200px
