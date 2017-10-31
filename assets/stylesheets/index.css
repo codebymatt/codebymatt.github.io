@@ -34,15 +34,14 @@ a {
       margin: 45px auto 25px; }
     #landing #kicker-wrapper #kicker-cta {
       font-size: 18px;
-      margin: 0px auto 60px;
+      margin: 0px auto 30px;
       max-width: 80%; }
     #landing #kicker-wrapper #caret {
-      margin-top: 40px;
-      width: 35px;
-      display: none; }
+      width: 35px; }
     #landing #kicker-wrapper #bridge {
       width: 90%;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      display: none; }
 
 #project-section {
   text-align: center;
@@ -76,18 +75,19 @@ a {
         max-width: 90%;
         margin: 10px auto; }
       #project-section #project-wrapper .card-wrapper .card .in-dev {
-        border-style: solid;
-        border-color: red;
-        border-radius: 100px;
-        border-width: 2px;
-        max-width: 65%;
-        margin: 25px auto 0px; }
+        margin: 30px auto 10px; }
         #project-section #project-wrapper .card-wrapper .card .in-dev p {
-          margin: 5px auto;
+          border-style: solid;
+          border-color: red;
+          border-radius: 100px;
+          border-width: 2px;
+          display: inline;
+          margin: 25px auto 0px;
           color: red;
           font-weight: 300;
           font-size: 14px;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          padding: 5px 10px; }
       #project-section #project-wrapper .card-wrapper .card i {
         margin: 20px auto;
         font-size: 45px; }
@@ -116,10 +116,11 @@ a {
     text-align: center; }
     #landing #kicker-wrapper #kicker {
       font-size: 40px;
-      margin-top: 160px; }
+      margin-top: 20vh; }
     #landing #kicker-wrapper #kicker-cta {
       font-size: 24px; }
     #landing #kicker-wrapper #bridge {
+      margin-top: 100px;
       height: 240px; }
 
   #project-section h1 {
