@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400");
-@import url("https://fonts.googleapis.com/css?family=Lato:200,300,400");
+@import url("https://fonts.googleapis.com/css?family=Karla:200,300,400");
+@import url("https://fonts.googleapis.com/css?family=Monstserrat:300,400");
 html, body, p {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 200; }
 
 a {
@@ -11,263 +11,58 @@ a {
   color: inherit;
   text-decoration: none; }
 
-#landing {
-  box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.15), 0 1px 5px 1px rgba(0, 0, 0, 0.15);
-  min-height: 100vh;
-  background-color: #FCFCFC; }
-  #landing #header {
-    text-align: center; }
-    #landing #header #logo {
-      height: 60px;
-      margin-top: 30px; }
-    #landing #header #nav {
-      margin: 20px auto;
-      display: flex;
-      justify-content: center; }
-      #landing #header #nav .nav-option {
-        margin: 0 10px;
-        font-size: 18px;
-        font-weight: 300; }
-        #landing #header #nav .nav-option:hover {
-          text-decoration: underline; }
-  #landing #kicker-wrapper {
-    text-align: center; }
-    #landing #kicker-wrapper #kicker {
-      font-size: 26px;
-      max-width: 90%;
-      margin: 45px auto 25px; }
-    #landing #kicker-wrapper #kicker-cta {
-      font-size: 18px;
-      margin: 0px auto 30px;
-      max-width: 80%; }
-    #landing #kicker-wrapper #caret {
-      width: 30px; }
-    #landing #kicker-wrapper #bridge {
-      width: 90%;
-      margin-bottom: 20px;
-      display: none; }
-
-#project-section {
-  text-align: center;
-  overflow: hidden; }
-  #project-section h1 {
-    font-weight: 200;
-    margin-top: 35px; }
-  #project-section #intro {
-    font-family: "Lato", serif;
-    font-size: 18px;
-    max-width: 90%;
-    margin: 0 auto; }
-  #project-section #project-wrapper .card-wrapper {
-    max-width: 80%;
-    margin: 45px auto; }
-    #project-section #project-wrapper .card-wrapper h3 {
-      font-weight: 300;
-      font-size: 22px;
-      margin: 20px 0px;
-      text-transform: uppercase; }
-    #project-section #project-wrapper .card-wrapper .card {
-      background-color: #FFFFFF;
-      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
-      overflow: hidden;
-      margin-bottom: 80px; }
-      #project-section #project-wrapper .card-wrapper .card img {
-        width: 100%;
-        object-fit: cover;
-        object-position: center; }
-      #project-section #project-wrapper .card-wrapper .card p {
-        font-family: "Lato", serif;
-        font-size: 16px;
-        max-width: 90%;
-        margin: 10px auto; }
-      #project-section #project-wrapper .card-wrapper .card .in-dev {
-        margin: 30px auto 10px; }
-        #project-section #project-wrapper .card-wrapper .card .in-dev p {
-          border-style: solid;
-          border-color: red;
-          border-radius: 100px;
-          border-width: 2px;
-          display: inline;
-          margin: 25px auto 0px;
-          color: red;
-          font-weight: 300;
-          font-size: 14px;
-          text-transform: uppercase;
-          padding: 5px 10px; }
-      #project-section #project-wrapper .card-wrapper .card i {
-        margin: 20px auto;
-        font-size: 45px; }
-
-#skills-section {
-  text-align: center;
-  background-color: #FCFCFC;
-  overflow: hidden;
-  box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.15), 0 1px 5px 1px rgba(0, 0, 0, 0.15); }
-  #skills-section h1 {
-    font-weight: 200;
-    margin-top: 35px; }
-  #skills-section .skills-description {
-    font-family: "Lato", serif;
-    font-size: 22px;
-    max-width: 90%;
-    margin: 0 auto; }
-  #skills-section #skills-top {
-    display: none; }
-  #skills-section #skills-bottom {
-    margin-bottom: 30px;
-    margin-top: 60px; }
-    #skills-section #skills-bottom a {
-      font-weight: 400; }
-  #skills-section #skills-container {
-    max-width: 90%;
-    overflow: hidden;
-    margin: 0px auto 20px; }
-    #skills-section #skills-container #hidden {
-      display: none; }
-    #skills-section #skills-container .skill-container {
-      display: flex;
-      flex-direction: column;
-      margin: 60px auto 0px;
-      max-width: 90%; }
-      #skills-section #skills-container .skill-container img {
-        height: 75px; }
-      #skills-section #skills-container .skill-container h3 {
-        font-weight: 300;
-        font-size: 18px;
-        margin-top: 10px;
-        display: inline-block; }
-
-#footer #outro {
-  max-width: 80%;
-  margin: 50px auto 40px;
+body #landing #background {
+  height: 100vh;
+  object-fit: cover;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(15%); }
+body #landing #header {
+  display: flex;
+  flex-direction: column;
   text-align: center; }
-  #footer #outro p {
-    font-family: "Lato", serif;
-    font-size: 18px; }
-    #footer #outro p a {
-      font-weight: 400; }
-#footer #email {
-  font-weight: 400;
-  font-size: 24px;
-  margin: 40px auto;
+  body #landing #header #logo {
+    margin-top: 30px;
+    width: 60px; }
+  body #landing #header #resume {
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-top: 20px;
+    font-family: "Montserrat", serif;
+    text-transform: uppercase; }
+body #landing #kicker-wrapper {
   text-align: center; }
-#footer #social-links {
-  text-align: center;
-  margin: 0px auto 50px; }
-  #footer #social-links i {
-    font-size: 40px;
-    margin: 0 15px; }
-
-@media screen and (min-width: 375px) {
-  #landing #kicker-wrapper #bridge {
-    margin-top: 100px; } }
-@media screen and (min-width: 400px) {
-  #landing #kicker-wrapper #kicker {
-    margin-top: 10vh; }
-  #landing #kicker-wrapper #bridge {
-    margin-top: 150px; } }
-@media screen and (min-width: 420px) {
-  #skills-section h1 {
-    margin-top: 50px; }
-  #skills-section #skills-container {
-    display: flex; }
-    #skills-section #skills-container .skill-container {
-      margin: 75px auto 25px;
-      font-size: 18px;
-      display: flex;
-      align-items: center; }
-      #skills-section #skills-container .skill-container img {
-        height: 75px;
-        min-width: 200px; }
-      #skills-section #skills-container .skill-container .skills-inner {
-        display: flex;
-        flex-direction: column;
-        text-align: left; }
-        #skills-section #skills-container .skill-container .skills-inner h3 {
-          display: inline-block;
-          margin-bottom: 5px;
-          font-size: 18px; }
-    #skills-section #skills-container .skill-container-left img {
-      margin-right: 50px; }
-    #skills-section #skills-container .skill-container-left .skills-inner h3 {
-      display: inline-block; }
-    #skills-section #skills-container .skill-container-left .skills-inner p {
-      margin-left: 0px; }
-    #skills-section #skills-container .skill-container-right {
-      flex-direction: row-reverse; }
-      #skills-section #skills-container .skill-container-right img {
-        margin-left: 50px; }
-      #skills-section #skills-container .skill-container-right .skills-inner {
-        text-align: right; }
-        #skills-section #skills-container .skill-container-right .skills-inner p {
-          text-align: right;
-          margin-left: auto;
-          margin-right: 0px; } }
-@media screen and (min-width: 1200px) {
-  #landing #header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 30px; }
-    #landing #header #logo {
-      height: 75px; }
-    #landing #header #nav {
-      margin: 30px 0px 0px; }
-      #landing #header #nav .nav-option {
-        margin: 0px 20px; }
-  #landing #kicker-wrapper {
-    text-align: center; }
-    #landing #kicker-wrapper #kicker {
-      font-size: 40px;
-      margin-top: 20vh; }
-    #landing #kicker-wrapper #kicker-cta {
-      font-size: 24px; }
-    #landing #kicker-wrapper #bridge {
-      margin-top: 100px;
-      height: 240px; }
-
-  #project-section h1 {
-    font-size: 48px;
-    margin-top: 100px; }
-  #project-section #intro {
-    font-size: 20px;
-    margin-bottom: 100px; }
-  #project-section #project-wrapper .card-wrapper {
-    max-width: 50%; }
-    #project-section #project-wrapper .card-wrapper h3 {
-      font-size: 36px;
-      margin-bottom: 30px; }
-    #project-section #project-wrapper .card-wrapper .card {
-      margin-bottom: 150px; }
-      #project-section #project-wrapper .card-wrapper .card .in-dev {
-        margin: 30px auto 10px;
-        max-width: 200px; }
-
-  #skills-section h1 {
-    font-size: 48px;
-    margin-top: 100px; }
-  #skills-section .skills-description {
+  body #landing #kicker-wrapper #kicker, body #landing #kicker-wrapper #kicker-cta {
+    font-family: "Montserrat", serif;
+    color: #FFFFFF; }
+  body #landing #kicker-wrapper #kicker {
+    font-size: 32px;
+    max-width: 70%;
+    margin: 50px auto 0px; }
+  body #landing #kicker-wrapper #kicker-cta {
+    margin-top: 70px;
     font-size: 22px; }
-  #skills-section #skills-container .skill-container img {
-    height: 100px;
-    min-width: 100px; }
-  #skills-section #skills-container .skill-container .skills-inner {
-    display: flex;
-    flex-direction: column;
-    text-align: left; }
-    #skills-section #skills-container .skill-container .skills-inner h3 {
-      display: inline-block;
-      margin-bottom: 5px;
-      font-size: 20px; }
+  body #landing #kicker-wrapper #caret {
+    margin-top: 20px;
+    width: 20px; }
 
-  #footer #outro {
-    max-width: 60%; }
-    #footer #outro p {
-      font-size: 18px; }
-  #footer #social-links i {
-    font-size: 32px; } }
-@media screen and (min-width: 1400px) {
-  #skills-section #skills-container {
-    max-width: 1400px; } }
+@media screen and (min-width: 1000px) {
+  body #landing #header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 30px;
+    align-items: center; }
+    body #landing #header #logo {
+      width: 80px; }
+    body #landing #header #resume {
+      font-size: 1.2em; }
+  body #landing #kicker-wrapper #kicker {
+    margin-top: 20vh;
+    font-size: 3em; }
+  body #landing #kicker-wrapper #kicker-cta {
+    font-size: 1.8em; }
+  body #landing #kicker-wrapper #caret {
+    width: 30px; } }
 
 /*# sourceMappingURL=index.css.map */
