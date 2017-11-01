@@ -1,8 +1,9 @@
 @import 'base'
 
 #landing
+    box-shadow: 0 -1px 5px 1px rgba(0,0,0,0.15), 0 1px 5px 1px rgba(0,0,0,0.15)
     min-height: 100vh
-    background-color: #FCFCFC
+    background-color: $eggshell
     #header
         text-align: center
         #logo
@@ -16,27 +17,24 @@
                 margin: 0 10px
                 font-size: 18px
                 font-weight: 300
+                &:hover
+                    text-decoration: underline
     #kicker-wrapper
         text-align: center
         #kicker
-            font-size: 28px
+            font-size: 26px
             max-width: 90%
             margin: 45px auto 25px
         #kicker-cta
             font-size: 18px
-            //margin: 0px auto 60px
             margin: 0px auto 30px
             max-width: 80%
         #caret
-            //margin-top: 40px
-            width: 35px
-            //display: none
+            width: 30px
         #bridge
             width: 90%
             margin-bottom: 20px
             display: none
-            //position: relative
-            //bottom: 10px
 
 #project-section
     text-align: center
@@ -45,7 +43,8 @@
         font-weight: 200
         margin-top: 35px
     #intro
-        font-size: 16px
+        font-family: $secondary-font
+        font-size: 18px
         max-width: 90%
         margin: 0 auto
     #project-wrapper
@@ -53,9 +52,9 @@
             max-width: 80%
             margin: 45px auto
             h3
-                font-weight: 200
-                font-size: 20px
-                margin-bottom: 20px
+                font-weight: 300
+                font-size: 22px
+                margin: 20px 0px
                 text-transform: uppercase
             .card
                 background-color: #FFFFFF
@@ -67,6 +66,7 @@
                     object-fit: cover
                     object-position: center
                 p
+                    font-family: $secondary-font
                     font-size: 16px
                     max-width: 90%
                     margin: 10px auto
@@ -87,8 +87,64 @@
                 i
                     margin: 20px auto
                     font-size: 45px
+#skills-section
+    text-align: center
+    background-color: $eggshell
+    overflow: hidden
+    box-shadow: 0 -1px 5px 1px rgba(0,0,0,0.15), 0 1px 5px 1px rgba(0,0,0,0.15)
+    h1
+        font-weight: 200
+        margin-top: 35px
+    #skills-intro
+        font-family: $secondary-font
+        font-size: 18px
+        max-width: 90%
+        margin: 0 auto
+    #skills-container
+        #hidden
+            display: none
+        max-width: 90%
+        overflow: hidden
+        margin: 0px auto 20px
+        .skill-container
+                margin: 75px auto 65px
+                max-width: 90%
+                img
+                    height: 75px
+                h3
+                    font-weight: 300
+                    font-size: 22px
+                    margin-top: 10px
+                    display: inline-block
+                p
+                    display: inline-block
+                    font-family: $secondary-font
+                    text-align: left
+                    //max-width: 80%
+                    margin: auto auto
+#footer
+    #outro
+        max-width: 80%
+        margin: 50px auto 40px
+        text-align: center
+        p
 
-
+            font-family: $secondary-font
+            font-size: 18px
+            a
+                font-weight: 400
+    #email
+        font-weight: 400
+        font-size: 24px
+        margin: 40px auto
+        //padding: 20px 0px
+        text-align: center
+    #social-links
+        text-align: center
+        margin: 0px auto 50px
+        i
+            font-size: 40px
+            margin: 0 15px
 
 @media screen and (min-width: 375px)
     #landing
@@ -99,13 +155,56 @@
     #landing
         #kicker-wrapper
             #kicker
-                margin-top: 45px
+                margin-top: 10vh
             #bridge
                 margin-top: 150px
+@media screen and (min-width: 420px)
+    #skills-section
+        #skills-container
+            max-width: 1200px
+            margin: -75px auto 0px
+            .skill-container
+                margin: 150px auto
+                font-size: 18px
+                display: flex
+                align-items: center
+                img
+                    height: 125px
+                    min-width: 200px
+                .skills-inner
+                    display: flex
+                    flex-direction: column
+                    text-align: left
+                    h3
+                        display: inline-block
+                        margin-bottom: 5px
+                        font-size: 24px
+                    p
+                        display: inline-block
+                        br
+                            display: none
+            .skill-container-left
+                img
+                    margin-right: 50px
+                .skills-inner
+                    h3
+                        display: inline-block
+                    p
+                        display: inline-block
+                        margin-left: 0px
+            .skill-container-right
+                flex-direction: row-reverse
+                img
+                    margin-left: 50px
+                .skills-inner
+                    text-align: right
+                    p
+                        text-align: right
+                        margin-left: auto
+                        margin-right: 0px
 @media screen and (min-width: 1200px)
     #landing
         #header
-            //text-align:
             display: flex
             justify-content: space-between
             align-items: center
@@ -120,13 +219,9 @@
             text-align: center
             #kicker
                 font-size: 40px
-                //margin-top: 160px
                 margin-top: 20vh
             #kicker-cta
                 font-size: 24px
-            //#caret
-                display: block
-                margin: inherit auto
             #bridge
                 margin-top: 100px
                 height: 240px
@@ -148,3 +243,14 @@
                     .in-dev
                         margin: 30px auto 10px
                         max-width: 200px
+    #skills-section
+        h1
+            font-size: 48px
+            margin-top: 100px
+        #skills-intro
+            font-size: 20px
+
+@media screen and (min-width: 1400px)
+    #skills-section
+        #skills-container
+            max-width: 1400px

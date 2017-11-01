@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="165px" viewBox="0 0 120 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,63.75 C20,57.5 40,54.375 60,54.375 C80,54.375 100,57.5 120,63.75 L120,157.5 C100.625,162.5 80.625,165 60,165 C39.375,165 19.375,162.5 0,157.5 L0,63.75 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-12" transform="translate(-256.000000, -3916.000000)">
+            <g id="Group-3" transform="translate(117.000000, 2996.000000)">
+                <g id="Skills" transform="translate(108.000000, 286.000000)">
+                    <g id="Backend" transform="translate(1.000000, 634.000000)">
+                        <g id="Group-2" transform="translate(30.000000, 0.000000)">
+                            <g id="Group-3" transform="translate(22.500000, 0.000000)" fill="#000000">
+                                <g id="Group">
+                                    <path d="M0,37.5 C0,16.7893219 16.7893219,0 37.5,0 C58.2106781,0 75,16.7893219 75,37.5 L63.6840674,37.5 C62.7226677,23.8776083 51.367037,13.125 37.5,13.125 C23.632963,13.125 12.2773323,23.8776083 11.3159326,37.5 L0,37.5 Z" id="Combined-Shape"></path>
+                                    <rect id="Rectangle-14" x="63.75" y="37" width="11.25" height="60"></rect>
+                                    <rect id="Rectangle-14-Copy" x="0" y="37" width="11.25" height="60"></rect>
+                                </g>
+                            </g>
+                            <g id="Rectangle-13">
+                                <use fill="#666666" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#000000" stroke-width="4" d="M2,65.2255581 L2,155.945251 C20.7423212,160.64827 40.0744218,163 60,163 C79.9255782,163 99.2576788,160.64827 118,155.945249 L118,65.2255581 C98.6591502,59.3242113 79.3277444,56.375 60,56.375 C40.6722556,56.375 21.3408498,59.3242113 2,65.2255581 Z"></path>
+                            </g>
+                            <path d="M58.5463763,111.422872 L47.3537234,111.422872 L39.375,111.422872 L50.5452128,73.125 L66.5026596,73.125 L59.9087172,95.7328025 L80.9704158,95.7328025 L75.1413443,109.827128 L75.1874971,109.827128 L59.0625,148.125 L58.5463763,111.422872 Z" id="Combined-Shape" stroke="#000000" stroke-width="2" fill="#F8E71C"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
