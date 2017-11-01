@@ -12,7 +12,7 @@ a {
   text-decoration: none; }
 
 body #landing #background {
-  height: 100vh;
+  min-height: 100vh;
   object-fit: cover;
   width: 100vw;
   position: absolute;
