@@ -12,10 +12,9 @@ a {
   text-decoration: none; }
 
 #landing {
-  box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.15), 0 1px 5px 1px rgba(0, 0, 0, 0.15);
-  min-height: 100vh;
   background-color: #FCFCFC; }
   #landing #header {
+    overflow: hidden;
     text-align: center; }
     #landing #header #logo {
       height: 60px;
@@ -101,23 +100,15 @@ a {
 #skills-section {
   text-align: center;
   background-color: #FCFCFC;
-  overflow: hidden;
-  box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.15), 0 1px 5px 1px rgba(0, 0, 0, 0.15); }
+  overflow: hidden; }
   #skills-section h1 {
     font-weight: 200;
     margin-top: 35px; }
-  #skills-section .skills-description {
+  #skills-section #skills-intro {
     font-family: "Lato", serif;
-    font-size: 22px;
+    font-size: 18px;
     max-width: 90%;
     margin: 0 auto; }
-  #skills-section #skills-top {
-    display: none; }
-  #skills-section #skills-bottom {
-    margin-bottom: 30px;
-    margin-top: 60px; }
-    #skills-section #skills-bottom a {
-      font-weight: 400; }
   #skills-section #skills-container {
     max-width: 90%;
     overflow: hidden;
@@ -125,17 +116,20 @@ a {
     #skills-section #skills-container #hidden {
       display: none; }
     #skills-section #skills-container .skill-container {
-      display: flex;
-      flex-direction: column;
-      margin: 60px auto 0px;
+      margin: 75px auto 65px;
       max-width: 90%; }
       #skills-section #skills-container .skill-container img {
         height: 75px; }
       #skills-section #skills-container .skill-container h3 {
         font-weight: 300;
-        font-size: 18px;
+        font-size: 22px;
         margin-top: 10px;
         display: inline-block; }
+      #skills-section #skills-container .skill-container p {
+        display: inline-block;
+        font-family: "Lato", serif;
+        text-align: left;
+        margin: auto auto; }
 
 #footer #outro {
   max-width: 80%;
@@ -167,17 +161,16 @@ a {
   #landing #kicker-wrapper #bridge {
     margin-top: 150px; } }
 @media screen and (min-width: 420px) {
-  #skills-section h1 {
-    margin-top: 50px; }
   #skills-section #skills-container {
-    display: flex; }
+    max-width: 1200px;
+    margin: -75px auto 0px; }
     #skills-section #skills-container .skill-container {
-      margin: 75px auto 25px;
+      margin: 150px auto;
       font-size: 18px;
       display: flex;
       align-items: center; }
       #skills-section #skills-container .skill-container img {
-        height: 75px;
+        height: 125px;
         min-width: 200px; }
       #skills-section #skills-container .skill-container .skills-inner {
         display: flex;
@@ -186,12 +179,17 @@ a {
         #skills-section #skills-container .skill-container .skills-inner h3 {
           display: inline-block;
           margin-bottom: 5px;
-          font-size: 18px; }
+          font-size: 24px; }
+        #skills-section #skills-container .skill-container .skills-inner p {
+          display: inline-block; }
+          #skills-section #skills-container .skill-container .skills-inner p br {
+            display: none; }
     #skills-section #skills-container .skill-container-left img {
       margin-right: 50px; }
     #skills-section #skills-container .skill-container-left .skills-inner h3 {
       display: inline-block; }
     #skills-section #skills-container .skill-container-left .skills-inner p {
+      display: inline-block;
       margin-left: 0px; }
     #skills-section #skills-container .skill-container-right {
       flex-direction: row-reverse; }
@@ -246,28 +244,13 @@ a {
   #skills-section h1 {
     font-size: 48px;
     margin-top: 100px; }
-  #skills-section .skills-description {
-    font-size: 22px; }
-  #skills-section #skills-container .skill-container img {
-    height: 100px;
-    min-width: 100px; }
-  #skills-section #skills-container .skill-container .skills-inner {
-    display: flex;
-    flex-direction: column;
-    text-align: left; }
-    #skills-section #skills-container .skill-container .skills-inner h3 {
-      display: inline-block;
-      margin-bottom: 5px;
-      font-size: 20px; }
+  #skills-section #skills-intro {
+    font-size: 20px; }
 
   #footer #outro {
-    max-width: 60%; }
-    #footer #outro p {
-      font-size: 18px; }
-  #footer #social-links i {
-    font-size: 32px; } }
+    max-width: 60%; } }
 @media screen and (min-width: 1400px) {
   #skills-section #skills-container {
     max-width: 1400px; } }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=skills.css.map */

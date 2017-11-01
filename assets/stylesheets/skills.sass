@@ -1,10 +1,11 @@
 @import 'base'
 
 #landing
-    box-shadow: 0 -1px 5px 1px rgba(0,0,0,0.15), 0 1px 5px 1px rgba(0,0,0,0.15)
-    min-height: 100vh
+    //box-shadow: 0 -1px 5px 1px rgba(0,0,0,0.15), 0 1px 5px 1px rgba(0,0,0,0.15)
+    //min-height: 100vh
     background-color: $eggshell
     #header
+        overflow: hidden
         text-align: center
         #logo
             height: 60px
@@ -91,23 +92,15 @@
     text-align: center
     background-color: $eggshell
     overflow: hidden
-    box-shadow: 0 -1px 5px 1px rgba(0,0,0,0.15), 0 1px 5px 1px rgba(0,0,0,0.15)
+    //box-shadow: 0 -1px 5px 1px rgba(0,0,0,0.15), 0 1px 5px 1px rgba(0,0,0,0.15)
     h1
         font-weight: 200
         margin-top: 35px
-    .skills-description
+    #skills-intro
         font-family: $secondary-font
-        font-size: 22px
+        font-size: 18px
         max-width: 90%
         margin: 0 auto
-    #skills-top
-        //margin-bottom: 15px
-        display: none
-    #skills-bottom
-        margin-bottom: 30px
-        margin-top: 60px
-        a
-            font-weight: 400
     #skills-container
         #hidden
             display: none
@@ -115,17 +108,21 @@
         overflow: hidden
         margin: 0px auto 20px
         .skill-container
-            display: flex
-            flex-direction: column
-            margin: 60px auto 0px
-            max-width: 90%
-            img
-                height: 75px
-            h3
-                font-weight: 300
-                font-size: 18px
-                margin-top: 10px
-                display: inline-block
+                margin: 75px auto 65px
+                max-width: 90%
+                img
+                    height: 75px
+                h3
+                    font-weight: 300
+                    font-size: 22px
+                    margin-top: 10px
+                    display: inline-block
+                p
+                    display: inline-block
+                    font-family: $secondary-font
+                    text-align: left
+                    //max-width: 80%
+                    margin: auto auto
 #footer
     #outro
         max-width: 80%
@@ -164,20 +161,16 @@
                 margin-top: 150px
 @media screen and (min-width: 420px)
     #skills-section
-        h1
-            margin-top: 50px
-        //padding: 30px 0px 75px
         #skills-container
-            //max-width: 1200px
-            //margin: -75px auto 0px
-            display: flex
+            max-width: 1200px
+            margin: -75px auto 0px
             .skill-container
-                margin: 75px auto 25px
+                margin: 150px auto
                 font-size: 18px
                 display: flex
                 align-items: center
                 img
-                    height: 75px
+                    height: 125px
                     min-width: 200px
                 .skills-inner
                     display: flex
@@ -186,7 +179,11 @@
                     h3
                         display: inline-block
                         margin-bottom: 5px
-                        font-size: 18px
+                        font-size: 24px
+                    p
+                        display: inline-block
+                        br
+                            display: none
             .skill-container-left
                 img
                     margin-right: 50px
@@ -194,7 +191,7 @@
                     h3
                         display: inline-block
                     p
-                        //display: inline-block
+                        display: inline-block
                         margin-left: 0px
             .skill-container-right
                 flex-direction: row-reverse
@@ -251,30 +248,11 @@
         h1
             font-size: 48px
             margin-top: 100px
-        .skills-description
-            font-size: 22px
-        #skills-container
-            //max-width: 70%
-            .skill-container
-                img
-                    height: 100px
-                    min-width: 100px
-                .skills-inner
-                    display: flex
-                    flex-direction: column
-                    text-align: left
-                    h3
-                        display: inline-block
-                        margin-bottom: 5px
-                        font-size: 20px
+        #skills-intro
+            font-size: 20px
     #footer
         #outro
             max-width: 60%
-            p
-                font-size: 18px
-        #social-links
-            i
-                font-size: 32px
 
 @media screen and (min-width: 1400px)
     #skills-section
