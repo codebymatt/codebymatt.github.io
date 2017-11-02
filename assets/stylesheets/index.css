@@ -11,41 +11,40 @@ a {
   color: inherit;
   text-decoration: none; }
 
-body #landing #background {
-  height: 100%;
-  object-fit: cover;
-  width: 100vw;
-  position: absolute;
-  z-index: -1;
-  filter: brightness(15%); }
-body #landing #header {
-  display: flex;
-  flex-direction: column;
-  text-align: center; }
-  body #landing #header #logo {
-    margin-top: 30px;
-    width: 60px; }
-  body #landing #header #resume {
-    color: #FFFFFF;
-    font-weight: 300;
-    margin-top: 20px;
-    font-family: "Montserrat", serif;
-    text-transform: uppercase; }
-body #landing #kicker-wrapper {
-  text-align: center; }
-  body #landing #kicker-wrapper #kicker, body #landing #kicker-wrapper #kicker-cta {
-    font-family: "Montserrat", serif;
-    color: #FFFFFF; }
-  body #landing #kicker-wrapper #kicker {
-    font-size: 32px;
-    max-width: 70%;
-    margin: 50px auto 0px; }
-  body #landing #kicker-wrapper #kicker-cta {
-    margin-top: 70px;
-    font-size: 22px; }
-  body #landing #kicker-wrapper #caret {
-    margin-top: 20px;
-    width: 20px; }
+body #landing {
+  background-image: url("../graphics/sf-85.png");
+  background-size: cover;
+  min-height: 100vh; }
+  body #landing #background {
+    background-image: url("../graphics/sf-85.png"); }
+  body #landing #header {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    body #landing #header #logo {
+      margin-top: 30px;
+      width: 60px; }
+    body #landing #header #resume {
+      color: #FFFFFF;
+      font-weight: 300;
+      margin-top: 20px;
+      font-family: "Montserrat", serif;
+      text-transform: uppercase; }
+  body #landing #kicker-wrapper {
+    text-align: center; }
+    body #landing #kicker-wrapper #kicker, body #landing #kicker-wrapper #kicker-cta {
+      font-family: "Montserrat", serif;
+      color: #FFFFFF; }
+    body #landing #kicker-wrapper #kicker {
+      font-size: 32px;
+      max-width: 70%;
+      margin: 50px auto 0px; }
+    body #landing #kicker-wrapper #kicker-cta {
+      margin-top: 70px;
+      font-size: 22px; }
+    body #landing #kicker-wrapper #caret {
+      margin-top: 20px;
+      width: 20px; }
 
 @media screen and (min-width: 1000px) {
   body #landing #header {
