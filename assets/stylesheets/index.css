@@ -73,6 +73,7 @@ body #projects {
     width: 100%;
     flex-wrap: wrap; }
     body #projects #projects-wrapper .project-instance {
+      position: relative;
       margin: 20px auto;
       padding: 20px 0px;
       width: 80%;
@@ -83,6 +84,36 @@ body #projects {
       justify-content: center;
       background-color: yellow;
       border-radius: 5px; }
+      body #projects #projects-wrapper .project-instance .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        visibility: hidden; }
+        body #projects #projects-wrapper .project-instance .overlay p {
+          color: #FFFFFF;
+          font-family: "Karla", sans-serif;
+          max-width: 85%;
+          margin: 30px auto 10px;
+          font-size: 16px; }
+        body #projects #projects-wrapper .project-instance .overlay .overlay-container {
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          body #projects #projects-wrapper .project-instance .overlay .overlay-container a i, body #projects #projects-wrapper .project-instance .overlay .overlay-container .inactive i {
+            font-size: 40px;
+            color: white;
+            margin: 10px 15px; }
+          body #projects #projects-wrapper .project-instance .overlay .overlay-container .inactive i {
+            color: rgba(255, 255, 255, 0.2); }
+      body #projects #projects-wrapper .project-instance #feedr-overlay {
+        background-color: #0061d2; }
+      body #projects #projects-wrapper .project-instance #takemyspot-overlay {
+        background-color: #f95344; }
+      body #projects #projects-wrapper .project-instance #newton-overlay {
+        background-color: #7000d2; }
+      body #projects #projects-wrapper .project-instance #ronnmapps-overlay {
+        background-color: #353535; }
       body #projects #projects-wrapper .project-instance img {
         max-height: 70px;
         margin: 10px 0px; }
@@ -198,6 +229,9 @@ body #about {
         max-width: 40%;
         min-height: 25vh;
         margin: 20px 20px; }
+        body #projects #projects-wrapper .project-instance .overlay p {
+          margin: 80px auto 30px;
+          font-size: 20px; }
       body #projects #projects-wrapper .with-text span {
         font-size: 32px;
         bottom: -10px; }

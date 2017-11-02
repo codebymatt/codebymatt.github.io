@@ -33,20 +33,59 @@
         <div id=projects>
             <h1>Projects</h1>
             <div id=projects-wrapper>
-                <div id=feedr class='project-instance with-text'>
+                <div id=feedr class='project-instance with-text' onclick="toggleFeedrVisibility()" onmouseover="mouseOverFeedr()" onmouseout="mouseOutFeedr()">
                     <img src='./assets/graphics/feedr-icon.svg' />
                     <span>feedr</span>
+                    <div class=overlay id=feedr-overlay >
+                        <p>
+                            An intuitive, modern RSS reader. It's free! (but also in Alpha)
+                        </p>
+                        <div class=overlay-container >
+                            <!--<a class=inactive href='https://usefeedr.com'><i class="fa fa-link" aria-hidden="true"></i></a>-->
+                            <div class=inactive href='https://usefeedr.com'><i class="fa fa-link" aria-hidden="true"></i></div>
+                            <a href='https://github.com/codebymatt/feedr-api'><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div id=takemyspot class='project-instance'>
+                <div id=takemyspot class='project-instance' onclick="toggleTakemyspotVisibility()" onmouseover="mouseOverTakemyspot()" onmouseout="mouseOutTakemyspot()">
                     <img src='./assets/graphics/takemyspot-icon.svg' />
+                    <div class=overlay id=takemyspot-overlay >
+                        <p>
+                            An online marketplace connecting drivers to driveways.
+                        </p>
+                        <div class=overlay-container >
+                            <!--<a class=inactive href='https://usefeedr.com'><i class="fa fa-link" aria-hidden="true"></i></a>-->
+                            <a href='https://github.com/codebymatt/takemyspot'><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div id=newton class='project-instance with-text'>
+                <div id=newton class='project-instance with-text' onclick="toggleNewtonVisibility()" onmouseover="mouseOverNewton()" onmouseout="mouseOutNewton()">
                     <img src='./assets/graphics/newton-icon.svg' />
                     <span>Newton</span>
+                    <div class=overlay id=newton-overlay >
+                        <p>
+                            Unit conversion, but in style.
+                        </p>
+                        <div class=overlay-container >
+                            <!--<a class=inactive href='https://usefeedr.com'><i class="fa fa-link" aria-hidden="true"></i></a>-->
+                            <div class=inactive href='https://asknewton.com'><i class="fa fa-link" aria-hidden="true"></i></div>
+                            <a href='https://github.com/codebymatt/newton'><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div id=ronnmaps class='project-instance with-text'>
+                <div id=ronnmaps class='project-instance with-text' onclick="toggleRonnMappsVisibility()" onmouseover="mouseOverRonnMapps()" onmouseout="mouseOutRonnMapps()">
                     <img src='./assets/graphics/ronnmapps-icon.svg' />
                     <span>Ronn Mapps</span>
+                    <div class=overlay id=ronnmapps-overlay >
+                        <p>
+                            The works and thoughts of Ronn Mapwata.
+                        </p>
+                        <div class=overlay-container >
+                            <!--<a class=inactive href='https://usefeedr.com'><i class="fa fa-link" aria-hidden="true"></i></a>-->
+                            <div class=inactive href='https://ronnmaps.com'><i class="fa fa-link" aria-hidden="true"></i></div>
+                            <div class=inactive href='https://github.com/codebymatt/ronnmapps'><i class="fa fa-github" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,4 +148,5 @@
             </div>
         </div>
     </body>
+    <script type=text/javascript src='./index.js'></script>
 </html>
