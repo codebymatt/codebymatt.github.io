@@ -1,0 +1,36 @@
+@import 'base'
+body
+    #header
+        display: flex
+        align-items: center
+        justify-content: center
+        padding-top: 30px
+        margin: 0px 30px
+        #home, #logo, #filler
+            width: 33%
+        #logo
+            height: 60px
+            width: 60px
+    #contact
+        text-align: center
+        .social-link
+            display: flex
+            justify-content: center
+            margin: 30px auto 20px
+            a
+                i
+                    font-size: 30px
+                    margin: 0px 10px
+        .contacts
+            display: block
+            font-family: $primary-font
+            font-size: 18px
+            margin-bottom: 10px
+@media screen and (min-width: 1000px)
+    body
+        #header
+            #logo
+                height: 80px
+                width: 80px
+        #contact
+            margin-top: 50px
