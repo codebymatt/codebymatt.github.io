@@ -82,7 +82,6 @@ body #projects {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: yellow;
       border-radius: 5px; }
       body #projects #projects-wrapper .project-instance .overlay {
         position: absolute;
