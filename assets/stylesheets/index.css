@@ -28,8 +28,11 @@ body #landing {
     background-image: url("../graphics/sf-85.png"); }
   body #landing #header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center; }
+    body #landing #header #filler, body #landing #header #logo, body #landing #header #resume {
+      width: 33%; }
     body #landing #header #logo {
       margin-top: 30px;
       width: 60px; }
@@ -37,8 +40,7 @@ body #landing {
       color: #FFFFFF;
       font-weight: 300;
       margin-top: 20px;
-      font-family: "Montserrat", serif;
-      text-transform: uppercase; }
+      font-family: "Montserrat", serif; }
   body #landing #kicker-wrapper {
     text-align: center; }
     body #landing #kicker-wrapper #kicker, body #landing #kicker-wrapper #kicker-cta {
@@ -53,6 +55,7 @@ body #landing {
       font-size: 22px; }
     body #landing #kicker-wrapper #caret {
       margin-top: 20px;
+      margin-bottom: 20px;
       width: 20px; }
 body #intro {
   text-align: center; }
@@ -128,7 +131,7 @@ body #about {
   text-align: center;
   margin-top: 70px; }
   body #about img {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     height: 100px;
     width: 100px;
@@ -158,6 +161,10 @@ body #about {
     justify-content: space-between;
     margin: 0px 30px;
     align-items: center; }
+    body #landing #header #filler {
+      display: none; }
+    body #landing #header #logo, body #landing #header #resume {
+      width: auto; }
     body #landing #header #logo {
       width: 80px; }
     body #landing #header #resume {
@@ -222,7 +229,7 @@ body #about {
     body #about h1 {
       font-size: 48px; }
     body #about img {
-      margin-top: 30px;
+      margin-top: 15px;
       margin-bottom: 20px;
       height: 100px;
       width: 100px;
