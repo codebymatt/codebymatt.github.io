@@ -1,5 +1,15 @@
 @import 'base'
 body
+    h1
+        font-size: 36px
+        font-weight: 300
+        font-family: $secondary-font
+    .social-link
+        margin-top: 30px
+        a
+            i
+                font-size: 30px
+                margin: 0px 15px
     #landing
         background-image: url('../graphics/sf-85.png')
         background-size: cover
@@ -41,6 +51,105 @@ body
             #caret
                 margin-top: 20px
                 width: 20px
+    #intro
+        text-align: center
+        p
+            margin: 50px auto 0px
+            color: $grey
+            font-size: 16px
+            font-family: $primary-font
+            max-width: 85%
+    #projects
+        margin-top: 70px
+        text-align: center
+        #projects-wrapper
+            display: flex
+            width: 100%
+            flex-wrap: wrap
+            .project-instance
+                margin: 20px auto
+                padding: 20px 0px
+                width: 80%
+                height: 20vh
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                background-color: yellow
+                border-radius: 5px
+                img
+                    max-height: 70px
+                    margin: 10px 0px
+                span
+                    font-size: 28px
+                    font-weight: 300
+                    color: $white
+            .with-text
+                img
+                    height: 70px
+                span
+                    position: relative
+                    bottom: 0
+                    font-family: $secondary-font
+            #feedr
+                background-image: url('../graphics/feedr.png')
+                background-size: cover
+            #takemyspot
+                background-color: $red
+            #newton
+                background-image: url('../graphics/newton.png')
+                background-size: cover
+            #ronnmaps
+                background-image: url('../graphics/ronnmapps.png')
+                background-size: cover
+    #skills
+        margin-top: 70px
+        text-align: center
+        h1
+            margin-bottom: 0px
+        #skills-wrapper
+            display: flex
+            flex-direction: column
+            text-align: center
+            color: $grey
+            .skill
+                font-family: $primary-font
+                margin-top: 60px
+                font-size: 18px
+                font-size: 14px
+                h3
+                    font-family: $primary-font
+                p
+                    margin: 0 auto
+                    max-width: 85%
+    #about
+        text-align: center
+        margin-top: 70px
+        img
+            margin-top: 30px
+            margin-bottom: 20px
+            height: 100px
+            width: 100px
+            border-radius: 100px
+        p
+            font-family: $primary-font
+            max-width: 85%
+            margin: 0px auto 0px
+            font-size: 16px
+            span
+                font-weight: bold
+            a
+                text-decoration: underline
+                color: $black
+        #large
+            font-size: 20px
+        #email
+            margin-top: 45px
+            font-size: 28px
+        #copyright
+            margin: 30px 0px
+            font-size: 12px
+
 
 @media screen and (min-width: 1000px)
     body
@@ -62,3 +171,84 @@ body
                     font-size: 1.8em
                 #caret
                     width: 30px
+        #intro
+            p
+                margin: 50px auto 0px
+                font-size: 24px
+                max-width: 50%
+            .social-link
+                i
+                    font-size: 35px
+                    margin: 0px 20px
+        #projects
+            margin-top: 120px
+            text-align: center
+            h1
+                font-size: 48px
+            #projects-wrapper
+                max-width: 80%
+                margin: 0px auto
+                justify-content: center
+                .project-instance
+                    max-width: 40%
+                    min-height: 25vh
+                    margin: 20px 20px
+                .with-text
+                    span
+                        font-size: 32px
+                        bottom: -10px
+                #takemyspot
+                    img
+                        height: 50px
+        #skills
+            margin-top: 120px
+            h1
+                font-size: 48px
+                margin-bottom: 0px
+            #skills-wrapper
+                flex-direction: row
+                .skill
+                    font-family: $primary-font
+                    margin-top: 60px
+                    font-size: 18px
+                    font-size: 14px
+                    img
+                        height: 60px
+                    h3
+                        font-family: $primary-font
+                        font-size: 24px
+                        margin-bottom: 15px
+                    p
+                        margin: 0 auto
+                        max-width: 85%
+                        font-size: 16px
+        #about
+            text-align: center
+            margin-top: 120px
+            h1
+                font-size: 48px
+            img
+                margin-top: 30px
+                margin-bottom: 20px
+                height: 100px
+                width: 100px
+                border-radius: 100px
+            p
+                font-family: $primary-font
+                max-width: 60%
+                margin: 0px auto 0px
+                font-size: 18px
+                span
+                    font-weight: bold
+                a
+                    text-decoration: underline
+                    color: $black
+            #large
+                font-size: 20px
+            #email
+                margin-top: 45px
+                font-size: 28px
+                font-family: $secondary-font
+            #copyright
+                margin: 30px 0px
+                font-size: 12px
