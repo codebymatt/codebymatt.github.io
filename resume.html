@@ -27,13 +27,15 @@
             <div id=education>
                 <h1>Education</h1>
                 <hr />
-                <h3>Trinity College Dublin</h3>
-                <h5>(2012-2016)</h5>
+                <div class=section-flex>
+                    <h3>Trinity College Dublin</h3>
+                    <h5>(2012-2016)</h5>
+                </div>
                 <p>
-                    B.A. (Hons.) in Mathematics
+                    B.A. (Hons) in Mathematics
                 </p>
                 <div id=coursework>
-                    <h4>Relevant Coursework</h4>
+                    <h4>Coursework</h4>
                     <ul>
                         <li>Introduction to Programming in C++</li>
                         <li>Practical Numerical Simulations in C++</li>
@@ -41,107 +43,183 @@
                         <li>Modern Statistical Methods</li>
                         <li>Statistical Inference</li>
                         <li>Final Year Project: Machine Learning Techniques inspired by Natural Processes</li>
-                    </ul>
-                </div>
-                <div id=employment>
-                    <h1>Work Experience</h1>
-                    <hr />
-                    <div class=job>
-                        <div class=company>Travelwin Group</div>
-                        <div class=title>DevOps Engineer</div>
-                        <div class=dates>Jan 2017 - November 2017</div>
-                        <ul class=responsibilities>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <div class=job>
-                            <div class=company>New Ireland Assurance</div>
-                            <div class=role>Actuarial Trainee</div>
-                            <div class=dates>Sept 2016 - Dec 2016</div>
-                            <ul class=responsibilities>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                        <li><b>Applied Mathematics</b>
+                            <ul>
+                                <li>Differential Equations</li>
+                                <li>Equations of Mathematical Physics</li>
+                                <li>Advanced Classical Mechanics</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <div id=projects>
-                    <h1>Projects</h1>
-                    <hr />
-                    <div class=project-instance>
-                        <h4>takemyspot</h4>
-                        <div class=role>Tech Lead</div>
-                        <ul class=responsibilities>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class=project-instance>
-                        <h4>Feedr</h4>
-                        <div class=role>Owner</div>
-                        <ul class=responsibilities>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class=project-instance>
-                        <h4>IV:X Apparel</h4>
-                        <div class=role>Tech and Operations Lead</div>
-                        <ul class=responsibilities>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
-                <div id=skills>
-                    <h1>Skills</h1>
-                    <hr />
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        </li>
+                        <li><b>Pure Mathematics</b>
+                            <ul>
+                                <li>Algebraic Topology</li>
+                                <li>Analysis in Several Real Variables</li>
+                                <li>Group Theory</li>
+                            </ul>
+                        </li>
+                        <li><b>Theoretical Physics</b>
+                            <ul>
+                                <li>Quantum Mechanics</li>
+                                <li>Chaos and Complexity</li>
+                                <li>Classical Physics</li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
-                <div id=technologies>
-                    <h1>Technologies</h1>
-                    <hr />
-                    <h4>Competent</h4>
+            </div>
+            <div id=employment>
+                <h1>Work Experience</h1>
+                <hr />
+                <div class=job>
+                    <div class=section-flex>
+                        <h3>Travelwin Group</h3>
+                        <h5 class=dates>Jan 2017 - Nov 2017</h5>
+                    </div>
+                    <h4>DevOps Engineer</h4>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <h4>Familiar</h4>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <h4>Exposure</h4>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Implement tools to gather, parse, and internally display application logs for easy monitoring and debugging (ELK stack)</li>
+                        <li>Implement and document software development best practices (e.g. gating version control commits using pull requests)</li>
+                        <li>Create new jobs/features on the Continuous Delivery pipeline (e.g. managing Jenkins jobs)</li>
+                        <li>Provide technical advice and recommendations to non-technical departments on suitable systems and frameworks</li>
+                        <li>Facilitate the proper implementation of Agile development techniques (scrum-based sprints), set up new sprints, prioritise backlogs</li>
+                        <li>Coordinate with external consultants to maintain a basic networking infrastructure</li>
+                        <li>Provide second line IT support to the Travelwin organisation</li>
                     </ul>
                 </div>
-                <h2>References available on request</h2>
+                <div class=job id=new-ireland>
+                    <div class=section-flex>
+                        <h3>New Ireland Assurance</h3>
+                        <h5 class=dates>Sept 2016 - Dec 2016</h5>
+                    </div>
+                    <h4>Trainee Actuary</h4>
+                    <ul>
+                        <li>Resolve day-to-day pensions and investments queries from internal and external brokers</li>
+                        <li>Assist senior team members in the completion of legislation and computation based tasks</li>
+                        <li>Provide manual computational services to other departments when automated systems fell over</li>
+                        <li>Update and maintain spreadsheet systems using Excel and VBA scripting; create new spreadsheets as necessary</li>
+                        <li>Begin preparation for actuarial qualification examinations</li>
+                    </ul>
+                </div>
+            </div>
+            <div id=projects>
+                <h1>Projects</h1>
+                <hr />
+                <div class=project-instance>
+                    <div class=section-flex>
+                        <h3>IV:X Apparel</h3>
+                        <h5 class=dates>Jul 2017 - Present</h5>
+                    </div>
+                    <h4>Tech and Operations Lead</h4>
+                    <ul>
+                        <li>Part of the founding team of an independent apparel company, publicly launching late 2017</li>
+                        <li>Building online sales platform using industry standard eCommerce solution</li>
+                        <li>Explaining technical concepts to other team members; managing technical expectations</li>
+                        <li>Responsible for all logistical processes (such as payments and orders)</li>
+                        <li>Coordinating with Product Lead to manage the supply chain</li>
+                    </ul>
+                </div>
+                <div class=project-instance>
+                    <div class=section-flex>
+                        <h3>takemyspot</h3>
+                        <h5 class=dates>Oct 2016 - Mar 2017</h5>
+                    </div>
+                    <h4>Tech Lead</h4>
+                    <ul>
+                        <li><a href='https://github.com/codebymatt/takemyspot'>Designed and built prototype</a> for an online parking space marketplace (unreleased due to commercial infeasibility concerns)</li>
+                        <li>Integrated search capability with Google Maps API</li>
+                        <li>Features include:
+                            <ul>
+                                <li>Registration and login to a user portal</li>
+                                <li>Retrieval of available parking spaces within a specified distance of a given address</li>
+                                <li>Photo upload capability</li>
+                            </ul>
+                        </li>
+                        <li> Technologies used:
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>JavaScript</li>
+                                <li>PostgreSQL</li>
+                                <li>HTML/CSS/SASS</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class=project-instance>
+                    <div class=section-flex>
+                        <h3>Feedr</h3>
+                        <h5 class=dates>In development</h5>
+                    </div>
+                    <h4>Personal project</h4>
+                    <ul>
+                        <li>Dvelopment and implementation of <a href='https:/github.com/codebymatt/feedr-api'>a modern RSS reader</a></li>
+                        <li>Implemented using industry standard DevOps best practices, including
+                            <ul>
+                                <li>Comprehensive automated test suite</li>
+                                <li>Continuous Integration service</li>
+                                <li>Automated deployments</li>
+                            </ul>
+                        </li>
+                        <li>Basic microservice architecture</li>
+                        <li>Technologies used:
+                            <ul>
+                                <li>Go</li>
+                                <li>JavaScript (React.js)</li>
+                                <li>PostgreSQL</li>
+                                <li>Docker</li>
+                                <li>Jenkins</li>
+                                <li>Chef</li>
+                                <li>Capistrano</li>
+                                <li>Bash scripts</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id=skills>
+                <h1>Skills</h1>
+                <hr />
+                <ul>
+                    <li>Strong problem solving capabilities</li>
+                    <li>Able to work with complex concepts and systems</li>
+                    <li>Exceptionally quick learner</li>
+                    <li>Familiar with Agile development techniques (including creating and managing sprints using Jira)</li>
+                    <li>Strong fundamental understanding of healthy DevOps principles and practices</li>
+                    <li>Able to effectively and simply communicate technical concepts to non-technical colleagues</li>
+                    <li>Understanding of how to maintain a stable codebase (using methods such as proper testing, code reviews, avoiding technical debt)</li>
+                    <li>Capable of undertaking several projects at once and prioritising according to business needs</li>
+                    <li>Able to determine and communicate the business value of various practices, technical or otherwise</li>
+                </ul>
+            </div>
+            <div id=technologies>
+                <h1>Technologies</h1>
+                <hr />
+                <h4>Competent</h4>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <h4>Familiar</h4>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <h4>Exposure</h4>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <h2 id=reference>References available on request</h2>
+            <div class=social-link>
+                <a href='https://github.com/codebymatt'><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href='https://linkedin.com/in/matthew-craig'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
         </div>
     </body>

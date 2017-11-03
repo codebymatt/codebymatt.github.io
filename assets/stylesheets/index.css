@@ -40,7 +40,8 @@ body #landing {
       color: #FFFFFF;
       font-weight: 300;
       margin-top: 20px;
-      font-family: "Montserrat", serif; }
+      font-family: "Montserrat", serif;
+      font-size: 14px; }
   body #landing #kicker-wrapper {
     text-align: center; }
     body #landing #kicker-wrapper #kicker, body #landing #kicker-wrapper #kicker-cta {
@@ -200,7 +201,7 @@ body #about {
     body #landing #header #logo {
       width: 80px; }
     body #landing #header #resume {
-      font-size: 1.2em; }
+      font-size: 1em; }
   body #landing #kicker-wrapper #kicker {
     margin-top: 20vh;
     font-size: 3em; }
