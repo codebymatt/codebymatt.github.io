@@ -120,7 +120,7 @@ body #resume-wrapper {
     body #resume-wrapper #projects hr {
       max-width: 10em; }
     body #resume-wrapper #projects .project-instance .section-flex {
-      margin-top: 30px;
+      margin-top: 15px;
       display: flex;
       flex-direction: column; }
       body #resume-wrapper #projects .project-instance .section-flex h3 {
