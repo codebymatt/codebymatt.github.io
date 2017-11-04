@@ -85,6 +85,8 @@ body #resume-wrapper {
         margin: 5px 0px;
         font-size: 14px;
         list-style-type: none; }
+        body #resume-wrapper #education #coursework ul li b {
+          font-weight: 400; }
         body #resume-wrapper #education #coursework ul li ul {
           padding: 2px 15px; }
   body #resume-wrapper #employment {
