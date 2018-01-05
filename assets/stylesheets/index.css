@@ -21,11 +21,9 @@ body .social-link {
     font-size: 30px;
     margin: 0px 15px; }
 body #landing {
-  background-image: url("../graphics/sf-85.png");
+  background-image: url("../graphics/sf-85-full.png");
   background-size: cover;
   min-height: 100vh; }
-  body #landing #background {
-    background-image: url("../graphics/sf-85.png"); }
   body #landing #header {
     display: flex;
     justify-content: space-between;
