@@ -17,7 +17,8 @@ body {
     font-family: "Roboto", sans-serif;
     margin-top: 30vh;
     font-weight: 300;
-    font-size: 3em; }
+    font-size: 3em;
+    max-width: 80%; }
   body .social-link a i {
     font-size: 35px;
     margin: 0px 15px; }
