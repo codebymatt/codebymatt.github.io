@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Karla:400");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
 html, body, p {
   margin: 0;
   padding: 0;
-  font-family: "Karla", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 200; }
 
 a {
@@ -44,7 +43,7 @@ body #contact {
       margin: 0px 10px; }
   body #contact .contacts {
     display: block;
-    font-family: "Karla", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 10px; }
