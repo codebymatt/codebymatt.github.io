@@ -13,16 +13,13 @@ a {
 body {
   text-align: center;
   background-color: #FCFCFC; }
-  body #message {
-    font-family: "Roboto", sans-serif;
-    margin: 30vh auto 3vh;
-    font-weight: 300;
-    font-size: 3em;
-    max-width: 80%; }
-  body .social-link a i {
-    font-size: 35px;
-    margin: 0px 15px; }
-    body .social-link a i:hover {
-      color: #519d9e; }
+  body .social-link {
+    margin-top: 40vh;
+    text-align: center; }
+    body .social-link a i {
+      font-size: 25px;
+      margin: 0px 7px; }
+      body .social-link a i:hover {
+        color: #888; }
 
 /*# sourceMappingURL=index.css.map */
