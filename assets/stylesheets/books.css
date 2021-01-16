@@ -8,6 +8,12 @@ html, body, p {
   font-weight: 200;
 }
 
+@media (max-width: 450px) {
+  body {
+    padding: 20px;
+  }
+}
+
 a {
   outline: none;
   color: inherit;
@@ -30,6 +36,11 @@ body .page-title {
   font-size: 3rem;
   letter-spacing: 0.2rem;
   margin-bottom: 1rem;
+}
+@media (max-width: 450px) {
+  body .page-title {
+    margin-top: 0;
+  }
 }
 body .page-wrapper {
   margin: 0 auto;
@@ -60,6 +71,11 @@ body .page-wrapper .book-wrapper .title-wrapper .green, body .page-wrapper .book
   width: 0.6rem;
   margin-left: 0.5rem;
   border-radius: 100%;
+}
+@media (max-width: 450px) {
+  body .page-wrapper .book-wrapper .title-wrapper .green, body .page-wrapper .book-wrapper .title-wrapper .orange, body .page-wrapper .book-wrapper .title-wrapper .red {
+    display: none;
+  }
 }
 body .page-wrapper .book-wrapper .title-wrapper .green {
   background-color: green;

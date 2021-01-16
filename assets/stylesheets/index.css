@@ -8,6 +8,12 @@ html, body, p {
   font-weight: 200;
 }
 
+@media (max-width: 450px) {
+  body {
+    padding: 20px;
+  }
+}
+
 a {
   outline: none;
   color: inherit;
