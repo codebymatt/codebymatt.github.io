@@ -1,0 +1,61 @@
+@import 'base'
+
+body
+  h1, h2, h3, h4, h5, h6
+    font-family: $header-font
+    font-weight: 400
+    color: $off-black
+
+  p, a, div
+    font-family: $text-font
+
+  a
+    color: black
+    font-weight: bold
+
+  .page-title
+    font-size: 3rem
+    letter-spacing: 0.2rem
+    margin-bottom: 1rem
+
+  .page-wrapper
+    margin: 0 auto
+    max-width: 800px
+
+    .kicker
+      margin-top: 2rem
+      margin-bottom: 3rem
+
+    .year-wrapper
+      font-size: 2.5rem
+      letter-spacing: 0.5rem
+    
+    .book-wrapper
+      margin-bottom: 3rem
+
+      .title-wrapper
+        display: flex
+        flex-direction: row
+        align-items: center
+        margin-bottom: 0.5rem
+
+        .book-title
+          margin: 0
+
+        .green, .orange, .red
+          height: 0.6rem
+          width: 0.6rem
+          margin-left: 0.5rem
+          border-radius: 100%
+
+        .green
+          background-color: green
+
+        .orange
+          background-color: orange
+
+        .red
+          background-color: red
+
+      .book-author
+        margin-top: 0
