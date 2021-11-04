@@ -24,8 +24,24 @@ body {
   text-align: center;
   background-color: #FCFCFC;
 }
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body a {
+  font-family: "Inter";
+}
+body .profile-container {
+  margin-top: 30vh;
+}
+body .profile-container img {
+  height: 10rem;
+  border-radius: 150rem;
+}
+body .title {
+  margin-bottom: 0.75rem;
+}
+body .kicker {
+  margin-top: 0.75rem;
+}
 body .social-link {
-  margin-top: 40vh;
+  margin-top: 3rem;
   text-align: center;
 }
 body .social-link a i {
