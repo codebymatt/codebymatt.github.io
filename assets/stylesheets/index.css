@@ -29,6 +29,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a {
 }
 body .profile-container {
   margin-top: 30vh;
+  height: 10rem;
 }
 body .profile-container img {
   height: 10rem;
