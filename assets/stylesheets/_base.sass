@@ -2,8 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300')
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap')
 
-$text-font: '"Inter"', sans-serif
+$text-font: 'Lora', sans-serif
 $header-font: "Inter", serif
 $grey: #333333
 $off-black: #3a3a3a
@@ -18,8 +19,11 @@ html, body
     text-align: center
     background-color: $eggshell
 
-h1, h2, h3, h4, h5, h6, p, a
-    font-family: "Inter"
+h1, h2, h3, h4, h5, h6
+    font-family: $header-font
+
+p, a
+    font-family: $text-font
 
 body
   @media (max-width: 450px)
