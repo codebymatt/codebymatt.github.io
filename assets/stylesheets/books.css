@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-html, body, p {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+html, body {
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 200;
+  font-family: '"Inter"', sans-serif;
+  text-align: center;
+  background-color: #FCFCFC;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Inter";
 }
 
 @media (max-width: 450px) {
@@ -21,12 +25,12 @@ a {
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-family: "Poppins", serif;
+  font-family: "Inter", serif;
   font-weight: 400;
   color: #3a3a3a;
 }
 body p, body a, body div {
-  font-family: "Noto Sans", sans-serif;
+  font-family: '"Inter"', sans-serif;
 }
 body a {
   color: black;
