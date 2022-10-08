@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;900&display=swap");
 html, body {
   margin: 0;
   padding: 0;
@@ -33,19 +33,18 @@ body {
   text-align: center;
   background-color: #FCFCFC;
 }
-body h1, body h2, body h3, body h4, body h5, body h6, body p, body a {
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Lora";
+}
+body p, body a {
   font-family: "Inter";
 }
-body .profile-container {
-  margin-top: 20vh;
-  height: 10rem;
-}
-body .profile-container img {
-  height: 10rem;
-  border-radius: 150rem;
+body h1 {
+  font-size: 4rem;
+  font-weight: 400;
 }
 body .title {
-  margin-bottom: 0.75rem;
+  margin-top: 20vh;
 }
 body .kicker {
   margin-top: 0.75rem;
@@ -54,32 +53,15 @@ body .social-link {
   margin-top: 3rem;
   text-align: center;
 }
+body .social-link a {
+  cursor: pointer;
+}
 body .social-link a i {
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px 7px;
 }
 body .social-link a i:hover {
   color: #4a4a4a;
-}
-body .project-30 {
-  box-sizing: border-box;
-  margin-top: 2rem;
-  border-radius: 100rem;
-  border-style: solid;
-  border-width: 0.2rem;
-  border-color: black;
-  background-color: black;
-  color: white;
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  cursor: pointer;
-  font-weight: 400;
-  font-size: 0.8rem;
-}
-body .project-30:hover {
-  background-color: #FCFCFC;
-  color: black;
-  font-weight: 400;
 }
 
 /*# sourceMappingURL=index.css.map */
